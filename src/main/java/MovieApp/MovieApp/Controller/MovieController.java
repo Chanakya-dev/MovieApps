@@ -37,7 +37,7 @@ public class MovieController {
     
   
             @PostMapping("saveBulk")
-    public List<Movie>saveBulk(@RequestBody List<Movie>m){
+    public List<Movie>saveBulk(@RequestBody @Valid List<Movie>m){
         return movieService.savebulk(m);
     }
 

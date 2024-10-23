@@ -36,9 +36,9 @@ class MovieServiceTest {
         MockitoAnnotations.openMocks(this);
         // Create multiple movie instances
         movies = Arrays.asList(
-            new Movie(1L, "Inception", "Sci-Fi", true, "poster1.jpg", LocalDate.of(2010, 7, 16)),
-            new Movie(2L, "Interstellar", "Sci-Fi", true, "poster2.jpg", LocalDate.of(2014, 11, 7)),
-            new Movie(3L, "The Dark Knight", "Action", true, "poster3.jpg", LocalDate.of(2008, 7, 18))
+            new Movie(1L, "Inception", "Sci-Fi", true, "poster1.jpg", LocalDate.of(2010, 7, 16),"English"),
+            new Movie(2L, "Interstellar", "Sci-Fi", true, "poster2.jpg", LocalDate.of(2014, 11, 7),"Telugu"),
+            new Movie(3L, "The Dark Knight", "Action", true, "poster3.jpg", LocalDate.of(2008, 7, 18),"English")
         );
     }
 

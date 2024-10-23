@@ -40,7 +40,7 @@ class MovieControllerTest {
     void setUp() {
         MockitoAnnotations.openMocks(this); // Initialize Mockito annotations
         mockMvc = MockMvcBuilders.standaloneSetup(movieController).build(); // Initialize MockMvc
-        movie = new Movie(1L, "Inception", "Sci-Fi", true, "inception.jpg", LocalDate.of(2010, 7, 16));
+        movie = new Movie(1L, "Inception", "Sci-Fi", true, "inception.jpg", LocalDate.of(2010, 7, 16),"English");
     }
 
     @Test
